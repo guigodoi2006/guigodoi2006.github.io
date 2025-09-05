@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>João da Silva</h1>
+    <p>Desenvolvedor Front-End</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <p>Sou um desenvolvedor apaixonado por tecnologia, especializado em criar experiências web interativas e responsivas.</p>
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <div class="projeto">
+        <h3>Projeto 1</h3>
+        <p>Um site de portfólio feito com HTML, CSS e JavaScript.</p>
+      </div>
+      <div class="projeto">
+        <h3>Projeto 2</h3>
+        <p>Uma calculadora web simples e funcional.</p>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <form id="contato-form">
+        <input type="text" id="nome" placeholder="Seu nome" required />
+        <input type="email" id="email" placeholder="Seu e-mail" required />
+        <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="mensagem-enviada"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 João da Silva</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
